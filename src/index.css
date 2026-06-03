@@ -5,7 +5,7 @@
   --color-secondary: #541A1A;
   --color-bg-main: #F1E2D1;
   --color-bg-card: #DCC3AA;
-  
+
   --font-main: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }

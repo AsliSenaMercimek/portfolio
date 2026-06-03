@@ -144,6 +144,25 @@
   background-color: #ffffff;
 }
 
+/* Prevent default browser autofill yellow background */
+.form-group input:-webkit-autofill,
+.form-group input:-webkit-autofill:hover,
+.form-group input:-webkit-autofill:focus,
+.form-group textarea:-webkit-autofill,
+.form-group textarea:-webkit-autofill:hover,
+.form-group textarea:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--color-secondary);
+  -webkit-box-shadow: 0 0 0px 1000px var(--color-bg-main) inset;
+  transition: background-color 5000s ease-in-out 0s;
+  font-family: var(--font-main);
+}
+
+.form-group input:-webkit-autofill:focus,
+.form-group textarea:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset, 0 0 0 4px rgba(129, 11, 56, 0.12);
+}
+
+
 .btn-submit {
   align-self: flex-start;
   padding: 14px 36px;
