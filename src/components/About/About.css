@@ -1,0 +1,50 @@
+.about {
+  padding: 100px 20px;
+  background-color: var(--color-bg-main);
+  border-top: 1px solid rgba(84, 26, 26, 0.05);
+}
+
+.about-content {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-subtitle {
+  font-size: 1rem;
+  color: var(--color-primary);
+  margin-bottom: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: block;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  color: var(--color-secondary);
+}
+
+.about-desc {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: rgba(84, 26, 26, 0.85);
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 60px 20px;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-desc {
+    font-size: 1rem;
+  }
+}

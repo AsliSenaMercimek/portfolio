@@ -7,6 +7,7 @@ function Navbar() {
       <div className="navbar-logo">Asli Sena Mercimek</div>
       <ul className="navbar-links">
         <li><a href="#home">Ana Sayfa</a></li>
+        <li><a href="#about">Hakkımda</a></li>
         <li><a href="#projects">Projeler</a></li>
         <li><a href="#skills">Yetenekler</a></li>
         <li><a href="#timeline">Deneyim</a></li>
