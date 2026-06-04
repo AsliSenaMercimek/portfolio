@@ -20,7 +20,7 @@ function Skills() {
     <section className="skills" id="skills">
       <div className="container">
         <div className="section-header">
-          <span className="section-subtitle">Yetkinlikler</span>
+          <span className="section-subtitle">Yetenekler</span>
           <h2 className="section-title">Teknik Beceriler</h2>
           <div className="section-divider"></div>
         </div>
